@@ -11,6 +11,7 @@ import AuthRoute from './component/authroute/authroute'
 
 import reducers from './reducer'
 import './config'
+import './index.css'
 import registerServiceWorker from './registerServiceWorker'
 
 const store = createStore(reducers, compose(
